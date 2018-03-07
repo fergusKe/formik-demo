@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
+import FormikApp from '../FormikApp/FormikApp'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        test
+				<FormikApp email="fergus@gmail.com" />
       </div>
     )
   }
